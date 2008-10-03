@@ -21,3 +21,4 @@ Usage:          Append 'rel="facebox"' to an element to call it inside a so-call
                 facebox.loading();
                 facebox.reveal('Facebox contents here', null);
                 new Effect.Appear(facebox.facebox, {duration: .3});
+                facebox.load(url)
